@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Athens-Clarke County Dashboard</title>
+		
+
+		<script src="https://unpkg.com/phosphor-icons"></script>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	
+	<body id="body">
+
+	<header>
+		<h1 class="locale">
+			COVID-19 Cases 
+			<span>Athens Clarke County Georgia</span>
+		</h1>
+		
+		<a href="#alert-levels" id="alert-link" title="Many cases including community spread, with undetected cases likely.
+Limit everyday activities as much as possible."><div id="alert-current" class="level-3">
+			<h3>Alert Level 3</h3> 
+			<div>Avoid Nonessential Travel</div>
+		</div></a>
+	</header>
+	<a name="top"></a>
+
+	<div id="wrapper">
+			<section>
+				<h2>Athens Clarke County</h2>
+				<div><em>Last updated Nov 13, 2020</em></div>
+			</section>
+			
+			<div class="row">
+				
+				<!-- snapshot -->
+				<section class="col">
+					<iframe title="Snapshot" aria-label="chart" id="datawrapper-chart-3i8FO" src="https://datawrapper.dwcdn.net/3i8FO/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="420"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+					</script>
+				</section>
+		
+				<!-- Cases -->
+				<section class="col last-col">
+					<iframe title="Cases and deaths" aria-label="Interactive line chart" id="datawrapper-chart-sZgFK" src="https://datawrapper.dwcdn.net/sZgFK/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+					</script>
+				</section>
+		
+			</div><!-- /row -->
+			
+			
+			
+			<div class="row">
+				<!-- Test positivity rate -->
+				<section class="col">
+					<iframe title="PCR Tests" aria-label="chart" id="datawrapper-chart-2VGMQ" src="https://datawrapper.dwcdn.net/2VGMQ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="600"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+					</script>
+				</section>
+				
+				<!-- 14 day case rate map -->
+				<section class="col last-col">
+					<iframe title="14 day case rate" aria-label="Map" id="datawrapper-chart-MkRX6" src="https://datawrapper.dwcdn.net/MkRX6/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="784"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+					</script>
+				</section>
+			</div>
+		
+		
+		<!-- Begin deaths -->
+		<section>
+			<iframe title="Deaths" aria-label="Interactive line chart" id="datawrapper-chart-h05g3" src="https://datawrapper.dwcdn.net/h05g3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+			</script>
+		</section>
+		
+		
+		
+    
+	
+	
+		<section>
+			<h2>Alert Levels</h2>
+			<p>
+				Alert-level systems provide a framework to support clear decision-making, improve accountability and communicate with the public to increase healthy behavior change. <a target="_blank" href="https://preventepidemics.org/covid19/resources/indicators/">Learn more about indicators</a>
+			</p>
+			<table id="alert-levels" class="alert-levels"> 
+				<tbody> 
+				<!--	<tr> 
+						<td class="level-4"> 
+							<h3>Alert Level 4: Purple</h3> 
+							<p>Very High Risk</p>
+						</td> 
+						<td>
+							Widespread outbreak that is growing with many undetected cases.<br> <strong>Take strong measures to limit all contact. Only leave home for supplies and services</strong>
+						</td> 
+					</tr> -->
+					<tr> 
+						<td class="level-3"> 
+							<h3>Alert Level 3: Red</h3> <p>High Risk</p>
+						</td> 
+						<td>
+							Many cases including community spread, with undetected cases likely.<br> <strong>Limit everyday activities as much as possible.</strong>
+						</td> 
+					</tr> 
+					<tr> 
+						<td class="level-2"> 
+							<h3>Alert Level 2: Orange</h3> <p>Moderate Risk</p>
+						</td> 
+						<td>
+							Increased number of cases with most cases from a known source.<br> <strong>Increase efforts to limit personal exposure.</strong>
+						</td> 
+					</tr> 
+					<tr> 
+						<td class="level-1"> 
+							<h3>Alert Level 1: Yellow</h3> <p>Lower Risk</p>
+						</td> 
+						<td>
+							Cases are rare and contact tracing can be used to control the virus.<br> <strong>Take everyday precautions.</strong>
+						</td> 
+					</tr> 
+				</tbody> 
+			</table>
+		</section>
+		
+	</div>
+	
+			<footer class="center">
+				<a href="#top">Back to top</a>
+			</footer>
+	</body>
+</html>
